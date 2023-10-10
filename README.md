@@ -1,1 +1,1 @@
-# CLTK with Stanza
+# CLTK + Stanza

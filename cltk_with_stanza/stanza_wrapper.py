@@ -6,9 +6,9 @@ import logging
 import os
 from typing import Dict, Optional
 
-import stanza  # type: ignore
-from stanza.models.common.constant import lang2lcode  # Dict[str, str]
-from stanza.resources.prepare_resources import default_treebanks  # Dict[str, str]
+import stanza
+from stanza.models.common.constant import lang2lcode
+from stanza.resources.prepare_resources import default_treebanks
 
 from cltk.core.exceptions import (
     CLTKException,
